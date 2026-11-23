@@ -71,7 +71,7 @@ test('Multiple DrownDown', async({page})=>{
 
     await page.goto("https://testautomationcentral.com/demo/dropdown.html");
     await page.getByRole('button',{name:'Multi-Select'}).click();
-    await page.selectOption("")
+  
 
 })
 
