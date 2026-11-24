@@ -97,6 +97,8 @@ test('Alert Handling', async({page})=>{
 
     console.log("Changes made in Feature First Changes");
     console.log('NEW feature');
+
+    console.log("Feature Branch Conflict Merge");
     
 
     console.log("Conflict Master Changes Merge");
