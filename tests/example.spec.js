@@ -56,7 +56,7 @@ test.skip('Handling Frame', async ({page}) => {
 
 //
 
-test.only ("Mouse Action titile", async ({page}) => {
+test ("Mouse Action titile", async ({page}) => {
   await page.goto("https://myntra.com/");
   //await page.dblclick("Element");
   //right click -> Context cllick
@@ -68,7 +68,7 @@ test.only ("Mouse Action titile", async ({page}) => {
 })
 
 //keyword action
-test.only ("Keyboard action", async ({page}) => {
+test("Keyboard action", async ({page}) => {
   await page.goto("https://myntra.com/");
   
  // await page.keyboard.press('Control+V')->to press Enter , tab, caps
@@ -143,7 +143,7 @@ test.only ("Keyboard action", async ({page}) => {
     }
 });
 
-test.only("Windows Handle4", async ({context,page}) => {
+test("Windows Handle4", async ({context,page}) => {
   await page.goto("https://demo.automationtesting.in/Windows.html");
   await page.waitForLoadState('domcontentloaded');
   await page.locator("[href='#Tabbed']").click();
@@ -182,7 +182,7 @@ await newTab.waitForTimeout(10000);
 
 })
 
-test.only('New Window', async ({context,page}) => {
+test('New Window', async ({context,page}) => {
 
   await page.goto("https://demo.automationtesting.in/Windows.html");
   await page.waitForLoadState('domcontentloaded')
